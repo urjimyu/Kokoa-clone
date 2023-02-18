@@ -14,20 +14,20 @@
                 background-color: tomato;
             }
             body{
-                margin-top: 20px;
-                margin-left: 10px;
-                margin-right: 5px;
-                margin-bottom: 10px;
+                height: 100vh;
+                display: flex;
+                margin: 20px;
                 background-color: thistle;
+                justify-content: space-around;
+                align-items: center;
             }
             div{
-                margin-left: 50px;
-                height: 150px;
-                width: 150px;
-                background-color: whitesmoke;
+                width: 50px;
+                height: 50px;
+                background-color: teal;
+
             }
             span {
-                display:block;
                 background-color: turquoise;
             }
             #first {
@@ -50,20 +50,35 @@
                 width: 25px;
                 height: 25px;
             }
+            .btn{
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+            .teal {
+               background-color: teal;
+            }
+            .tomato {
+                background-color: tomato;
+                color:white;
+            }
         </style>
     </head>
     <body>
-        <div>a</div>
-        <div>hello</div>
-        <div>hello</div>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
+        <div id="first">
+            <div id="second">
+                <div id="third">
+                    <div id="fourth"></div>
+                </div>
+            </div>
+        </div>
         <a href="#">link</a>
-        <span>hello</span>
         <p>I'm just writing anything for CSS workouts. I'm too full that I cannot even drink a glass of water. It's now 1 a.m. and I'm a bit sleepy.</p>
-        <img src="img/CheerUp.jpeg"/>
-        <span>hello</span>
-        <span>hello</span>
+        <img src="img/CheerUp.jpeg" height="250px" width="180px"/>
+        <span class="btn tomato">hello</span>
+        <span class="btn teal">hello</span>
+        <span class="btn tomato">hello</span>
+        <span class="btn teal">hello</span>
+        <span class="btn tomato">hello</span>
+        <span class="btn teal">hello</span>
     </body>
 </html>
