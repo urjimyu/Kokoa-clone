@@ -14,9 +14,10 @@
                 background-color: tomato;
             }
             body{
+                position: relative;
                 height: 1000vh;
                 display: flex;
-                margin: 20px;
+                margin: 50px;
                 background-color: thistle;
                 justify-content: space-around;
                 flex-direction: column;
@@ -43,16 +44,7 @@
                 width: 100px;
                 height: 100px;
             }
-            #third {
-                background-color: wheat;
-                width: 50px;
-                height: 50px;
-            }
-            #fourth {
-                background-color: blanchedalmond;
-                width: 25px;
-                height: 25px;
-            }
+        
             #different{
                 top: 5px;
                 left: 20px;
@@ -71,24 +63,26 @@
                 background-color: tomato;
                 color:white;
             }
+            .green{
+                background-color: teal;
+                height: 100px;
+                width: 100px;
+                position: relative;
+                top: -10px;
+                left: -10px;
+            }
         </style>
     </head>
     <body>
         <div id="first">
             <div id="second">
-                <div id="third">
-                    <div id="fourth"></div>
-                </div>
+                <div class="green"></div>
             </div>
         </div>
         <div id="different"></div>
         <a href="#">link</a>
         <p>I'm just writing anything for CSS workouts. I'm too full that I cannot even drink a glass of water. It's now 1 a.m. and I'm a bit sleepy.</p>
         <img src="img/CheerUp.jpeg" height="250px" width="180px"/>
-        <span class="btn tomato">hello</span>
-        <span class="btn teal">hello</span>
-        <span class="btn tomato">hello</span>
-        <span class="btn teal">hello</span>
         <span class="btn tomato">hello</span>
         <span class="btn teal">hello</span>
     </body>
