@@ -15,75 +15,45 @@
             }
             body{
                 position: relative;
-                height: 1000vh;
+                height: 100vh;
                 display: flex;
                 margin: 50px;
                 background-color: thistle;
                 justify-content: space-around;
-                flex-direction: column;
-                align-items: flex-end;
                 flex-wrap: nowrap;
             }
             div{
                 position: fixed;
-                width: 50px;
-                height: 50px;
+                width: 150px;
+                height: 150px;
                 background-color: teal;
+            }
 
+            div:last-child{
+                background-color: teal;
+            }
+
+            div:first-child{
+                background-color: tomato;
             }
             span {
-                background-color: turquoise;
+                background-color: tomato;
             }
-            #first {
-                background-color: whitesmoke;
-                width:150px;
-                height: 150px;
-            }
-            #second {
-                background-color: wheat;
-                width: 100px;
-                height: 100px;
+            span:nth-child(even)
+            {
+                background-color: teal;
             }
         
-            #different{
-                top: 5px;
-                left: 20px;
-                position:fixed;
-                background-color: wheat;
-                width: 350px;
-            }
-            .btn{
-                padding: 5px 10px;
-                border-radius: 5px;
-            }
-            .teal {
-               background-color: teal;
-            }
-            .tomato {
-                background-color: tomato;
-                color:white;
-            }
-            .green{
-                background-color: teal;
-                height: 100px;
-                width: 100px;
-                position: relative;
-                top: -10px;
-                left: -10px;
-            }
         </style>
     </head>
     <body>
-        <div id="first">
-            <div id="second">
-                <div class="green"></div>
-            </div>
+        <div>
+            <span>hello</span>
+            <p>
+                I'm just writing anything to practice css. <span>inside</span>
+            </p>
         </div>
-        <div id="different"></div>
         <a href="#">link</a>
-        <p>I'm just writing anything for CSS workouts. I'm too full that I cannot even drink a glass of water. It's now 1 a.m. and I'm a bit sleepy.</p>
         <img src="img/CheerUp.jpeg" height="250px" width="180px"/>
-        <span class="btn tomato">hello</span>
-        <span class="btn teal">hello</span>
     </body>
 </html>
