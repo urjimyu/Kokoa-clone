@@ -23,37 +23,43 @@
                 flex-wrap: nowrap;
             }
             div{
-                position: fixed;
                 width: 150px;
                 height: 150px;
                 background-color: teal;
             }
 
-            div:last-child{
-                background-color: teal;
+            span {
+                background-color: yellowgreen;
+                padding: 5px;
+                border-radius: 10px;
+                text-decoration: underline;
+            }
+            div p span{
+                color: white;
+                text-decoration: none;
+            }
+            input{
+                border: 1px solid wheat;
             }
 
-            div:first-child{
+            input:required{
+                border-color: tomato;
+            }
+            input[placeholder~="name"]{
+                background-color: pink;
+            }
+            button:active{
                 background-color: tomato;
             }
-            span {
-                background-color: tomato;
-            }
-            span:nth-child(even)
-            {
-                background-color: teal;
-            }
-        
         </style>
     </head>
     <body>
         <div>
-            <span>hello</span>
-            <p>
-                I'm just writing anything to practice css. <span>inside</span>
-            </p>
+            <form>
+                <input type="text" placeholder="First name"/>
+                <input type="text" placeholder="Last name"/>
+                <input type="password" required placeholder="password"/>
+            </form>
         </div>
-        <a href="#">link</a>
-        <img src="img/CheerUp.jpeg" height="250px" width="180px"/>
     </body>
 </html>
