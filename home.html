@@ -45,8 +45,12 @@
             input:required{
                 border-color: tomato;
             }
-            input[placeholder~="name"]{
-                background-color: pink;
+            input ::placeholder{
+                color: green;
+            }
+            p::selection{
+                background-color: yellowgreen;
+                color:white
             }
             button:active{
                 background-color: tomato;
@@ -56,10 +60,11 @@
     <body>
         <div>
             <form>
-                <input type="text" placeholder="First name"/>
-                <input type="text" placeholder="Last name"/>
-                <input type="password" required placeholder="password"/>
+                <input type="text" placeholder="Name"/>
             </form>
         </div>
+        <p>
+            Hi I'm just writing this for web workout.
+        </p>
     </body>
 </html>
