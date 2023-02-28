@@ -13,6 +13,9 @@
             html {
                 background-color: tomato;
             }
+            :root{
+                --main-color: #fcee00;
+            }
             body{
                 position: relative;
                 height: 100vh;
@@ -28,16 +31,6 @@
                 background-color: teal;
             }
 
-            span {
-                background-color: yellowgreen;
-                padding: 5px;
-                border-radius: 10px;
-                text-decoration: underline;
-            }
-            div p span{
-                color: white;
-                text-decoration: none;
-            }
             input{
                 border: 1px solid wheat;
             }
@@ -55,6 +48,10 @@
             button:active{
                 background-color: tomato;
             }
+            p {
+                background-color: var(--main-color);
+            }
+
         </style>
     </head>
     <body>
