@@ -1,70 +1,36 @@
 <!DOCTYPE html>
-<html lang="kr"></html>
+<html lang="kr">
 <html>
     <head>
-        <title>Home- My first website.</title>
-        <link href="styles.css" rel = "stylesheet"/>
-        <meta charset="utf-8"/>
-        <meta name="description" content="This is my website!"/>
+        <title>The Min times</title>
         <style>
-            *{
-                border:2px solid black;
-            }
-            html {
-                background-color: tomato;
-            }
             body{
-                position: relative;
-                height: 100vh;
                 display: flex;
-                margin: 50px;
-                background-color: thistle;
-                justify-content: space-around;
-                flex-wrap: nowrap;
+                justify-content: center;
+                height: 100vh;
+                align-items: center;
             }
             div{
-                width: 150px;
-                height: 150px;
                 background-color: teal;
+                width: 200px;
+                height: 200px;
             }
 
-            span {
-                background-color: yellowgreen;
-                padding: 5px;
-                border-radius: 10px;
-                text-decoration: underline;
-            }
-            div p span{
-                color: white;
-                text-decoration: none;
-            }
-            input{
-                border: 1px solid wheat;
-            }
+            @media screen and (min-width: 601px) and (max-width: 800px) and (orientation: landscape) {
+                div{
+                    background-color: wheat;
 
-            input:required{
-                border-color: tomato;
+                }
             }
-            input ::placeholder{
-                color: green;
-            }
-            p::selection{
-                background-color: yellowgreen;
-                color:white
-            }
-            button:active{
-                background-color: tomato;
+            @media screen and (orientation: landscape) {
+                span{
+                    display: none;
+                }
             }
         </style>
     </head>
     <body>
-        <div>
-            <form>
-                <input type="text" placeholder="Name"/>
-            </form>
-        </div>
-        <p>
-            Hi I'm just writing this for web workout.
-        </p>
+        <div></div>
+        <span>Pleas flip your phone:(</span>
     </body>
 </html>
