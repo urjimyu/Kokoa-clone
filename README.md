@@ -1,4 +1,4 @@
 # kokoa-clone
 
 - HTML/CSS
-- Normad Corders Kokoa clone repo
+- Normad Corders Kokoa clone
