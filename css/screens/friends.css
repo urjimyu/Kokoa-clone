@@ -2,11 +2,12 @@
     text-align: center;
     display: block;
     background-color: #fafafa;
-    padding: 15px 15px;
-    font-size: 15px;
+    padding: 15px 0px;
+    font-size: 18px;
     position: fixed;
     top: 100px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 #friends-display-link {
@@ -15,4 +16,13 @@
 
 #friends-display-link i {
     margin-right: 5px;
+}
+
+.user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
 }
