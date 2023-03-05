@@ -12,9 +12,8 @@
     width: 70px;
     height: 70px;
     object-fit: cover;
-    border-radius: 27px;
+    border-radius: 30px;
     margin-right: 20px;
-    margin-left: 10px;
 }
 
 .user-component__title {
