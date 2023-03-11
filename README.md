@@ -1,6 +1,16 @@
 # kokoa-clone
 
 - HTML/CSS
+- What I made(아직 진행중!)
+
+|Friends|Chat|
+|:------:|:---:|
+|<img src="https://user-images.githubusercontent.com/92876819/224470522-c5705493-c73e-4929-a396-d4e316401e27.png" width="450" height="300">|<img src="https://user-images.githubusercontent.com/92876819/224470613-22443ca7-c925-45df-947b-161ec355e911.png" width="450" height="300">|
+| 친구목록 | 채팅목록 
+|Search|More|
+<img src="https://user-images.githubusercontent.com/92876819/224470646-5bc646fb-c698-4b1d-a54a-5961fc09c01e.png" width="450" height="300">|<img src="https://user-images.githubusercontent.com/92876819/224470669-6179f92a-2700-4b28-97af-ce2a6e141837.png" width="450" height="300">|
+| 검색 | 더보기 |
+
 <details>
 <summary>⬇️ Nomad Coders Kokoa clone Lecture Note</summary>
 <div markdown="1">
